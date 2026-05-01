@@ -146,7 +146,7 @@ def graficar_sumas(tabla, titulo, nombre_archivo):
     plt.grid(True)
     plt.tight_layout()
 
-    plt.savefig(f"graficas/{nombre_archivo}", dpi=300)
+    plt.savefig(f"graficas/parte_1/{nombre_archivo}", dpi=300)
     plt.show()
 
 
@@ -184,7 +184,7 @@ def graficar_residuos(tabla, titulo, nombre_archivo):
     plt.grid(True)
     plt.tight_layout()
 
-    plt.savefig(f"graficas/{nombre_archivo}", dpi=300)
+    plt.savefig(f"graficas/parte_1/{nombre_archivo}", dpi=300)
     plt.show()
 
 
@@ -216,7 +216,7 @@ def graficar_error_absoluto(tabla, titulo, nombre_archivo):
     plt.grid(True)
     plt.tight_layout()
 
-    plt.savefig(f"graficas/{nombre_archivo}", dpi=300)
+    plt.savefig(f"graficas/parte_1/{nombre_archivo}", dpi=300)
     plt.show()
 
 
