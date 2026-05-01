@@ -249,10 +249,10 @@ def main():
     tabla_todos = generar_tabla(N_todos)
 
     # Guardar tablas en CSV
-    tabla_10_100.to_csv("tablas/parte_1_tabla_N_10_100.csv", index=False)
-    tabla_100_1000.to_csv("tablas/parte_1_tabla_N_100_1000.csv", index=False)
-    tabla_1000_10000.to_csv("tablas/parte_1_tabla_N_1000_10000.csv", index=False)
-    tabla_todos.to_csv("tablas/parte_1_tabla_todos_los_N.csv", index=False)
+    tabla_10_100.to_csv("tablas/parte_1_tabla_N_10_100.csv", index=False, float_format="%.6f")
+    tabla_100_1000.to_csv("tablas/parte_1_tabla_N_100_1000.csv", index=False, float_format="%.6f")
+    tabla_1000_10000.to_csv("tablas/parte_1_tabla_N_1000_10000.csv", index=False, float_format="%.6f")
+    tabla_todos.to_csv("tablas/parte_1_tabla_todos_los_N.csv", index=False, float_format="%.6f")
 
     # Imprimir tablas en consola
     print("\nTabla 1: N de 10 a 100\n")
