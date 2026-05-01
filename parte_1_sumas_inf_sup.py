@@ -25,6 +25,7 @@ from funciones_comunes import (
     residuo,
     error_absoluto,
     obtener_rangos_N,
+    graficar,
 )
 
 
